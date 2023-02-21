@@ -1,0 +1,104 @@
+{
+    "name": "KPI Contract Initizalization",
+    "version": "1.0",
+    "fullname": "zPROC_KPI_INIT_CONTRACT",
+    "time": {
+        "last": "2023-02-15 00:00:00",
+        "average_execution_time": 501.0
+    },
+    "author": "Arno V",
+    "cmd": "EXECUTE zPROC_KPI_INIT",
+    "subcmd": []
+},
+{
+    "name": "KPI Initizalization",
+    "version": "1.0",
+    "fullname": "zPROC_KPI_INIT",
+    "time": {
+        "last": "2023-02-15 00:00:00",
+        "average_execution_time": 367.1
+    },
+    "author": "Arno V",
+    "cmd": "EXECUTE zPROC_KPI_INIT",
+    "subcmd": []
+},
+{
+    "name": "KPI PLF Initizalization",
+    "version": "1.0",
+    "fullname": null,
+    "time": {
+        "last": "2023-02-15 00:00:00",
+        "average_execution_time": 52.0
+    },
+    "author": "Arno V",
+    "cmd": null,
+    "subcmd": [
+        "EXECUTE zPROC_KPI_PLF_INIT",
+        "EXECUTE zPROC_KPI_PLF_CVT_OSCAR_TO_DMF",
+        "EXECUTE zPROC_KPI_PLF_MIG_DATA"
+    ],
+},
+{
+    "name": "KPI Compute Contract Data",
+    "version": "1.0",
+    "fullname": "zPROC_KPI_CONTRACT",
+    "time": {
+        "last": "2023-02-15 00:00:00",
+        "average_execution_time": 30.0
+    },
+    "author": "Arno V",
+    "cmd": "EXECUTE zPROC_KPI_CONTRACT",
+    "subcmd": []
+},
+{
+    "name": "KPI Compute OM Rights Data",
+    "version": "1.0",
+    "fullname": "zPROC_KPI_OM",
+    "time": {
+        "last": "2023-02-15 00:00:00",
+        "average_execution_time": 31.0
+    },
+    "author": "Arno V",
+    "cmd": "EXECUTE zPROC_KPI_OM",
+    "subcmd": []
+},
+{
+    "name": "KPI Compute COST & AMORT Data",
+    "version": "1.0",
+    "fullname": "zPROC_KPI_COST_AMORT",
+    "time": {
+        "last": "2023-02-15 00:00:00",
+        "average_execution_time": 4.0
+    },
+    "author": "Arno V",
+    "cmd": "EXECUTE zPROC_KPI_COST_AMORT",
+    "subcmd": []
+},
+{
+    "name": "KPI Compute Final KPI Table",
+    "version": "1.0",
+    "fullname": null,
+    "time": {
+        "last": "2023-02-15 00:00:00",
+        "average_execution_time": 11.0
+    },
+    "author": "Arno V",
+    "cmd": null,
+    "subcmd": [
+        "EXECUTE zPROC_KPI_AGGREG_FINAL_RESULTS",
+        "EXECUTE zPROC_KPI_PLF_COMPUTE_FINAL",
+        "EXECUTE zPROC_KPI_COMPUTE_METADATA"
+    ]
+},
+{
+    "name": "KPI Load results from KPI Table",
+    "version": "1.0",
+    "fullname": null,
+    "time": {
+        "last": "2023-02-15 00:00:00",
+        "average_execution_time": 11.0
+    },
+    "author": "Arno V",
+    "cmd": "SELECT * FROM ZZZ_RESULTAT_KPI_FINAL ",
+    "subcmd": []
+},

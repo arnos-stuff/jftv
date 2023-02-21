@@ -1,0 +1,19 @@
+{
+  "name": "jftv",
+  "type": "module",
+  "main": "./src/index.cjs",
+  "bin": "./src/index.cjs",
+  "packageManager": "yarn@3.4.1",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "fs-extra": "^11.1.0",
+    "gulp": "^4.0.2",
+    "mathjs": "^11.5.1",
+    "sybase": "^1.2.3",
+    "yargs": "^17.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "main": "node ./src/index.cjs"
+  }
+}
